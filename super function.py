@@ -44,23 +44,28 @@
 # Employee Name: sruthi
 # Employee phone_number: 9699996768
 # Employee phone_number: msc computerscience
-
-class Restaurent:
-     def __init__(self,cooldrinks, Fastfood_items, Staters):
-         self.cooldrinks = cooldrinks
-         self.Fastfood_items = Fastfood_items
-         self.Staters = Staters
-     def rice_items(self):
-         print("cooldrinks:",self.cooldrinks)
-         print("fastfood_items",self.Fastfood_items)
-         print("Staters:",self.Staters)
-
-class Hotel(Restaurent):
-     def __init__(self,cooldrinks, Fastfood_items, Staters,chicken):
-          super().__init__(cooldrinks, Fastfood_items, Staters)
-          self.chicken = chicken
-     def rice_items(self):
-         super().rice_items()
-         print("Display Hotel Item:",self.chicken)
-food=Hotel("mirinda","Gobi","spicy_sweetcorn","spicy chicken")
-food.rice_items()
+#
+# class Restaurent:
+#      def __init__(self,cooldrinks, Fastfood_items, Staters):
+#          self.cooldrinks = cooldrinks
+#          self.Fastfood_items = Fastfood_items
+#          self.Staters = Staters
+#      def rice_items(self):
+#          print("cooldrinks:",self.cooldrinks)
+#          print("fastfood_items",self.Fastfood_items)
+#          print("Staters:",self.Staters)
+#
+# class Hotel(Restaurent):
+#      def __init__(self,cooldrinks, Fastfood_items, Staters,chicken):
+#           super().__init__(cooldrinks, Fastfood_items, Staters)
+#           self.chicken = chicken
+#      def rice_items(self):
+#          super().rice_items()
+#          print("Display Hotel Item:",self.chicken)
+# food=Hotel("mirinda","Gobi","spicy_sweetcorn","spicy chicken")
+# food.rice_items()
+# output:
+# cooldrinks: mirinda
+# fastfood_items Gobi
+# Staters: spicy_sweetcorn
+# Display Hotel Item: spicy chicken
